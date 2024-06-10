@@ -109,7 +109,7 @@
 		flex-direction: column;
 
 		width: 95%;
-		height: 30rem;
+		height: 32rem;
 
 		margin-bottom: 10rem;
 
@@ -137,6 +137,8 @@
 	.about__description {
 		font-weight: bold;
 		color: white;
+
+		margin-bottom: 3rem;
 	}
 
 	.about__description > p:first-child {
