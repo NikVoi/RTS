@@ -30,8 +30,8 @@
 
 @media (max-width: 968px) {
 	.works {
-		padding-top: 13rem;
-		padding-bottom: 20rem;
+		padding-top: 8rem;
+		padding-bottom: 5rem;
 
 		background-image: url('../src/img/background/bg-works.png');
 		background-size: 300% 80%;
@@ -40,7 +40,7 @@
 	}
 
 	.works__title {
-		margin-bottom: 10rem;
+		margin-bottom: 2rem;
 
 		font-size: 3rem;
 	}
@@ -50,10 +50,12 @@
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
+
+		padding: 5rem;
 	}
 
 	.works__wrapper > img {
-		width: 38rem;
+		width: 35rem;
 
 		margin-bottom: 2rem;
 	}
