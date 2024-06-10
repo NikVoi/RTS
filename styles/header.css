@@ -57,6 +57,8 @@
 }
 
 .mobile__button {
+	display: none;
+
 	width: 100%;
 	height: 0.6rem;
 	border-radius: 0.2rem;
