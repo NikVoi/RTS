@@ -1,0 +1,138 @@
+.about {
+	position: relative;
+
+	padding: 11rem 0rem 13rem;
+
+	font-size: 2rem;
+
+	background: #0090ff;
+
+	background-image: url('../src/img/background/bg-about.png');
+	background-size: 90% 90%;
+	background-position: 5rem;
+	background-repeat: no-repeat;
+}
+
+.about__title {
+	margin-bottom: 10rem;
+
+	color: white;
+	text-transform: uppercase;
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: black 0.5rem 0.5rem;
+}
+
+.about__planet {
+	position: absolute;
+}
+
+.about__planet-1 {
+	top: 10rem;
+	right: 0;
+}
+
+.about__planet-2 {
+	bottom: 5rem;
+	left: 4rem;
+}
+
+.about__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__left {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	width: 53rem;
+	height: 30rem;
+
+	padding: 4rem 2rem 3rem 4rem;
+
+	background-color: #792aff;
+}
+
+.about__description {
+	font-weight: bold;
+	color: white;
+}
+
+.about__description > p:first-child {
+	margin-bottom: 4rem;
+}
+
+@media (max-width: 968px) {
+	.about {
+		height: 100%;
+
+		padding: 6rem 0rem 13rem;
+
+		font-size: 2rem;
+
+		background: #0090ff;
+
+		background-image: url('../src/img/background/bg-about.png');
+		background-size: 90% 90%;
+		background-position: 5rem;
+		background-repeat: no-repeat;
+	}
+
+	.about__title {
+		margin-bottom: 10rem;
+
+		font-size: 3rem;
+	}
+
+	.about__planet-1 {
+		display: none;
+	}
+
+	.about__planet-2 {
+		display: none;
+	}
+
+	.about__wrapper {
+		display: flex;
+
+		flex-direction: column-reverse;
+
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about__left {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+
+		width: 95%;
+		height: 30rem;
+
+		margin-bottom: 10rem;
+
+		padding: 4rem 2rem 2rem 4rem;
+
+		background-color: #792aff;
+	}
+
+	.about__left > .link {
+	}
+
+	.about__right {
+		margin-bottom: 3rem;
+	}
+
+	.about__description {
+		font-weight: bold;
+		color: white;
+	}
+
+	.about__description > p:first-child {
+		margin-bottom: 4rem;
+	}
+}

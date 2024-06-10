@@ -1,0 +1,163 @@
+.reviews {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+
+	background: #792aff;
+
+	background-image: url('../src/img/background/bg-reviews.png');
+	background-size: 90% 80%;
+	background-position: 0 12rem;
+	background-repeat: no-repeat;
+}
+
+.reviews__title {
+	margin-bottom: 7rem;
+
+	font-family: 'Inter', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: black 0.5rem 0.5rem;
+}
+
+.reviews__wrapper {
+	position: relative;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.reviews__card {
+	width: 20rem;
+
+	padding: 1rem 2rem;
+}
+
+.reviews__card > .card__img {
+	width: 15rem;
+	height: 14rem;
+
+	border: none;
+}
+
+.reviews__description {
+	position: relative;
+
+	width: 32rem;
+	height: 14.5rem;
+
+	font-size: 2rem;
+}
+
+.reviews__test1 {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+
+	width: 32rem;
+
+	padding: 2rem 2rem 4rem 2rem;
+
+	background: white;
+	border-radius: 1rem;
+	border: 0.2rem solid black;
+}
+
+.reviews__test2 {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	z-index: 0;
+
+	width: 32.7rem;
+	height: 15.3rem;
+
+	border: 0.2rem solid black;
+
+	border-radius: 1rem;
+	background-color: #bbff2c;
+}
+
+@media (max-width: 968px) {
+	.reviews {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+
+		background-image: none;
+	}
+
+	.reviews__title {
+		margin-bottom: 7rem;
+
+		font-size: 3rem;
+	}
+
+	.reviews__wrapper {
+		position: relative;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.reviews__card {
+		width: 20rem;
+
+		padding: 1rem 2rem;
+
+		margin-bottom: 2rem;
+	}
+
+	.reviews__card > .card__img {
+		width: 15rem;
+		height: 14rem;
+
+		border: none;
+	}
+
+	.reviews__description {
+		position: relative;
+
+		width: 20rem;
+		height: 14.5rem;
+		margin-bottom: 2rem;
+
+		font-size: 1.4rem;
+	}
+
+	.reviews__test1 {
+		position: absolute;
+		top: 0rem;
+		left: 0rem;
+		z-index: 1;
+
+		width: 20rem;
+		height: 10rem;
+
+		padding: 1rem;
+
+		background: white;
+		border-radius: 1rem;
+		border: 0.2rem solid black;
+	}
+
+	.reviews__test2 {
+		position: absolute;
+		top: 0rem;
+		left: 0rem;
+		z-index: 0;
+
+		width: 20.7rem;
+		height: 11rem;
+
+		border: 0.2rem solid black;
+
+		border-radius: 1rem;
+		background-color: #bbff2c;
+	}
+}

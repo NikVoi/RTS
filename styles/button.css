@@ -1,0 +1,51 @@
+.button {
+	width: 20rem;
+	height: 6rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+
+	border: 0.2rem solid black;
+	border-radius: 100px;
+	background-color: #bbff2c;
+}
+
+.button::after {
+	content: ' ';
+	position: absolute;
+	bottom: -0.5rem;
+	right: -0.5rem;
+	z-index: -1;
+
+	width: 20rem;
+	height: 6rem;
+
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+
+	border-radius: 100px;
+	background: black;
+}
+
+.button--social {
+	width: 3rem;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: 0.1rem solid black;
+	border-radius: 100%;
+	background-color: #bbff2c;
+}
+
+.button--social::after {
+	width: 0;
+	height: 0;
+}

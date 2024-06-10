@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles/index.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="/">
+					<div class="header__logo">
+						<img src="./src/img/logo.svg" alt="logo" class="header__img" />
+					</div>
+				</a>
+
+				<nav class="header__nav nav">
+					<button class="nav__item active" data-section="main">Главная</button>
+					<button class="nav__item" data-section="about">Обо мне</button>
+					<button class="nav__item" data-section="skills">Навыки</button>
+					<button class="nav__item" data-section="works">Работы</button>
+					<button class="nav__item" data-section="reviews">Отзывы</button>
+				</nav>
+
+				<div class="header__mobile mobile">
+					<span class="mobile__button"></span>
+				</div>
+			</div>
+		</header>
+
+		<nav class="mobile__nav">
+			<div class="pop-up">
+				<button class="nav__item active" data-section="main">Главная</button>
+				<button class="nav__item" data-section="about">Обо мне</button>
+				<button class="nav__item" data-section="skills">Навыки</button>
+				<button class="nav__item" data-section="works">Работы</button>
+				<button class="nav__item" data-section="reviews">Отзывы</button>
+			</div>
+		</nav>
+
+		<section class="main" data-section="main">
+			<div class="container">
+				<img
+					src="./src/img/background/plane_main_1.png"
+					alt="planets"
+					class="main__planet main__planet-1"
+				/>
+				<img
+					src="./src/img/background/plane_main_2.png"
+					alt="planets"
+					class="main__planet main__planet-2"
+				/>
+
+				<div class="main__window window">
+					<img src="./src/img/alien.png" alt="alien" class="main__alien" />
+
+					<div class="window__menu">
+						<img src="./src/img/menu.png" alt="menu" />
+					</div>
+
+					<div class="window__info">
+						<h1>ДИАНА КОРНИГОР</h1>
+						<h3>личный сайт веб разработчика</h3>
+					</div>
+				</div>
+
+				<a href="#" class="link">
+					<button class="button">Подробнее</button>
+				</a>
+			</div>
+		</section>
+
+		<section class="about" data-section="about">
+			<img
+				src="./src/img/background/plane_about_1.png"
+				alt="planets"
+				class="about__planet about__planet-1"
+			/>
+			<img
+				src="./src/img/background/plane_about_2.png"
+				alt="planets"
+				class="about__planet about__planet-2"
+			/>
+
+			<div class="container">
+				<h2 class="about__title">обо мне</h2>
+
+				<div class="about__wrapper">
+					<div class="about__left">
+						<div class="about__description">
+							<p>
+								Меня зовут Диана. Я занимаюсь разработкой современных сайтов и
+								приложений.
+							</p>
+
+							<p>Мне нравится создавать интересные и современные проекты.</p>
+						</div>
+
+						<a href="#" class="link">
+							<button class="button">Мои навыки</button>
+						</a>
+					</div>
+					<div class="about__right card">
+						<div class="card__menu">
+							<img src="./src/img/menu.png" alt="menu" />
+						</div>
+
+						<div class="card__img">
+							<img src="./src/img/humans/my_avatar.png" alt="human" />
+						</div>
+
+						<div class="card__info">
+							<div class="card__item">
+								<b>Где живу:</b>
+								<span>Мехико сити</span>
+							</div>
+							<div class="card__item">
+								<b>Возраст:</b>
+								<span>24</span>
+							</div>
+							<div class="card__item">
+								<b>Дата рождения:</b>
+								<span>1999</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills" data-section="skills">
+			<img
+				src="./src/img/background/plane_skills_1.png"
+				alt="planets"
+				class="skills__planet skills__planet-1"
+			/>
+			<img
+				src="./src/img/background/plane_skills_2.png"
+				alt="planets"
+				class="about__planet skills__planet-2"
+			/>
+
+			<div class="container">
+				<h2 class="skills__title">НАВЫКИ</h2>
+
+				<div class="skills__window window">
+					<div class="window__menu">
+						<img src="./src/img/menu.png" alt="menu" />
+					</div>
+
+					<div class="window__info">
+						<h3>
+							ЭТОТ САЙТ Я СДЕЛАЛА В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ ROCKET TECH SCHOOL
+						</h3>
+
+						<div class="window__wrapper">
+							<img src="./src/img/skills/HTML.png" alt="HTML" />
+							<img src="./src/img/skills/CSS.png" alt="CSS" />
+							<img src="./src/img/skills/JS.png" alt="JS" />
+						</div>
+
+						<a href="#" class="link">
+							<button class="button">Смотреть работы</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="works" data-section="works">
+			<div class="container">
+				<h2 class="works__title">РАБОТЫ</h2>
+
+				<div class="works__wrapper">
+					<img src="./src/img/works/work_1.png" alt="work 1" />
+					<img src="./src/img/works/work_2.png" alt="work 2" />
+					<img src="./src/img/works/work_3.png" alt="work 3" />
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews" data-section="reviews">
+			<div class="container">
+				<h2 class="reviews__title">ОТЗЫВЫ</h2>
+
+				<div class="reviews__wrapper">
+					<div class="reviews__card card">
+						<div class="card__menu">
+							<img src="./src/img/menu.png" alt="menu" />
+						</div>
+
+						<div class="card__img">
+							<img src="./src/img/reviews/review_1.png" alt="menu" />
+						</div>
+
+						<p class="card__title">ВЛАДИМИР</p>
+						<p class="card__description">Основатель Rocket Tech School</p>
+					</div>
+
+					<div class="reviews__description">
+						<div class="reviews__test1">
+							Эта девочка проходила обучение веб разработке 4 месяца, и уже
+							создает сложные сайты!
+						</div>
+
+						<div class="reviews__test2"></div>
+					</div>
+
+					<div class="reviews__card card">
+						<div class="card__menu">
+							<img src="./src/img/menu.png" alt="menu" />
+						</div>
+
+						<div class="card__img">
+							<img src="./src/img/reviews/review_2.png" alt="menu" />
+						</div>
+
+						<p class="card__title">ДИАНА</p>
+						<p class="card__description">Product Lead Rocket Tech School</p>
+					</div>
+
+					<div class="reviews__description">
+						<div class="reviews__test1">
+							Очень хорошо пишет код. Отличная оптимизация сайта. Современно,
+							стильно, молодежно!
+						</div>
+
+						<div class="reviews__test2"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__info">
+				<span>ДИАНА КОРНИГОР</span>
+				<span>Личный сайт веб разработчика</span>
+			</div>
+
+			<div class="footer__year">(c) 2024</div>
+
+			<div class="footer__link links">
+				<a href="#" class="link">
+					<button class="button button--social">
+						<img src="./src/img/links/discord.png" alt="DS" />
+					</button>
+				</a>
+
+				<a href="#" class="link">
+					<button class="button button--social">
+						<img src="./src/img/links/facebook.png" alt="facebook" />
+					</button>
+				</a>
+
+				<a href="#" class="link">
+					<button class="button button--social">
+						<img src="./src/img/links/instagram.png" alt="inst" />
+					</button>
+				</a>
+
+				<a href="#" class="link">
+					<button class="button button--social">
+						<img src="./src/img/links/telegram.png" alt="telegram" />
+					</button>
+				</a>
+			</div>
+		</footer>
+	</body>
+
+	<script src="./js/index.js"></script>
+</html>

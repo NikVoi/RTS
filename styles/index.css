@@ -1,0 +1,126 @@
+@import url('header.css');
+@import url('button.css');
+@import url('about.css');
+@import url('card.css');
+@import url('main.css');
+@import url('skills.css');
+@import url('works.css');
+@import url('reviews.css');
+@import url('window.css');
+@import url('footer.css');
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Inter', sans-serif;
+	line-height: 1;
+	font-size: 10px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0 auto;
+	background: #240057;
+}
+
+input,
+button,
+textarea {
+	font-family: 'Inter', sans-serif;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+select {
+	background-image: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'ALSSectorRegular-Regular';
+	src: url('../fonts/alssectorregular-regular.eot');
+	src: url('../fonts/alssectorregular-regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/alssectorregular-regular.woff2') format('woff2'),
+		url('../fonts/alssectorregular-regular.woff') format('woff'),
+		url('../fonts/alssectorregular-regular.ttf') format('truetype'),
+		url('../fonts/alssectorregular-regular.svg#alssectorregular-regular')
+			format('svg');
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
